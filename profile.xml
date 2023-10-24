@@ -52,7 +52,7 @@
 	    		<HostName>KR-韩国A</HostName>
 	            <HostAddress>zz02.cyberfly.org:530</HostAddress>
 		</HostEntry>
-				<HostEntry>
+		<HostEntry>
 	    		<HostName>KR-韩国B</HostName>
 	            <HostAddress>zz02.cyberfly.org:531</HostAddress>
 		</HostEntry>
