@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+
+	<ClientInitialization>
+		<UseStartBeforeLogon UserControllable="false">false</UseStartBeforeLogon>
+		<StrictCertificateTrust>false</StrictCertificateTrust>
+		<RestrictPreferenceCaching>false</RestrictPreferenceCaching>
+		<RestrictTunnelProtocols>false</RestrictTunnelProtocols>
+		<BypassDownloader>true</BypassDownloader>
+		<WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+		<CertEnrollmentPin>pinAllowed</CertEnrollmentPin>
+		<CertificateMatch>
+			<KeyUsage>
+				<MatchKey>Digital_Signature</MatchKey>
+			</KeyUsage>
+			<ExtendedKeyUsage>
+				<ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
+			</ExtendedKeyUsage>
+		</CertificateMatch>
+
+		<BackupServerList>
+	            <HostAddress>node.cyberfly.org:522</HostAddress>
+		</BackupServerList>
+	</ClientInitialization>
+
+	<ServerList>
+		<HostEntry>
+	            <HostName>HK-香港A</HostName>
+	            <HostAddress>zz01.cyberfly.org:522</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>HK-香港B</HostName>
+	            <HostAddress>zz01.cyberfly.org:518</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>HK-香港C</HostName>
+	            <HostAddress>zz01.cyberfly.org:520</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	    		<HostName>SG-新加坡</HostName>
+	            <HostAddress>zz01.cyberfly.org:523</HostAddress>
+		</HostEntry>		
+		<HostEntry>
+	            <HostName>JP-日本A</HostName>
+	            <HostAddress>zz01.cyberfly.org:524</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>JP-日本B</HostName>
+	            <HostAddress>zz02.cyberfly.org:525</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	    		<HostName>KR-韩国A</HostName>
+	            <HostAddress>zz02.cyberfly.org:530</HostAddress>
+		</HostEntry>
+				<HostEntry>
+	    		<HostName>KR-韩国B</HostName>
+	            <HostAddress>zz02.cyberfly.org:531</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>TW-台湾A</HostName>
+	            <HostAddress>zz02.cyberfly.org:519</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>DE-德国</HostName>
+	            <HostAddress>zz01.cyberfly.org:528</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>UK-英国</HostName>
+	            <HostAddress>zz01.cyberfly.org:526</HostAddress>
+		<HostEntry>
+	            <HostName>US-美国A</HostName>
+	            <HostAddress>zz01.cyberfly.org:521</HostAddress>
+		</HostEntry>
+		<HostEntry>
+	            <HostName>US-美国B</HostName>
+	            <HostAddress>zz01.cyberfly.org:527</HostAddress>
+		</HostEntry>				
+		</HostEntry>
+	</ServerList>
+</AnyConnectProfile>
