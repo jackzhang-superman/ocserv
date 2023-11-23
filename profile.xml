@@ -19,7 +19,7 @@
 		</CertificateMatch>
 
 		<BackupServerList>
-	            <HostAddress>node.cyberfly.org:522</HostAddress>
+	            <HostAddress>zz01.cyberfly.org:522</HostAddress>
 		</BackupServerList>
 	</ClientInitialization>
 
@@ -45,20 +45,16 @@
 	            <HostAddress>zz01.cyberfly.org:524</HostAddress>
 		</HostEntry>
 		<HostEntry>
-	            <HostName>JP-日本B</HostName>
-	            <HostAddress>zz02.cyberfly.org:525</HostAddress>
+	            <HostName>JP-日本B-ChatGPT</HostName>
+	            <HostAddress>zz01.cyberfly.org:525</HostAddress>
 		</HostEntry>
 		<HostEntry>
-	    		<HostName>KR-韩国A</HostName>
-	            <HostAddress>zz02.cyberfly.org:530</HostAddress>
+	    		<HostName>KR-韩国A-ChatGPT</HostName>
+	            <HostAddress>zz01.cyberfly.org:530</HostAddress>
 		</HostEntry>
 		<HostEntry>
-	    		<HostName>KR-韩国B</HostName>
-	            <HostAddress>zz02.cyberfly.org:531</HostAddress>
-		</HostEntry>
-		<HostEntry>
-	            <HostName>TW-台湾A</HostName>
-	            <HostAddress>zz02.cyberfly.org:519</HostAddress>
+	            <HostName>TW-台湾A-ChatGPT</HostName>
+	            <HostAddress>zz01.cyberfly.org:519</HostAddress>
 		</HostEntry>
 		<HostEntry>
 	            <HostName>DE-德国</HostName>
@@ -67,14 +63,14 @@
 		<HostEntry>
 	            <HostName>UK-英国</HostName>
 	            <HostAddress>zz01.cyberfly.org:526</HostAddress>
+		</HostEntry>
 		<HostEntry>
-	            <HostName>US-美国A</HostName>
+	            <HostName>US-美国A-ChatGPT</HostName>
 	            <HostAddress>zz01.cyberfly.org:521</HostAddress>
 		</HostEntry>
 		<HostEntry>
-	            <HostName>US-美国B</HostName>
+	            <HostName>US-美国B-ChatGPT</HostName>
 	            <HostAddress>zz01.cyberfly.org:527</HostAddress>
 		</HostEntry>				
-		</HostEntry>
 	</ServerList>
 </AnyConnectProfile>
