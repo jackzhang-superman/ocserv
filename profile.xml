@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientInitialization>
+    <UseStartBeforeLogon UserControllable="false">false</UseStartBeforeLogon>
+    <AutomaticCertSelection UserControllable="false">false</AutomaticCertSelection>
+    <ShowPreConnectMessage>false</ShowPreConnectMessage>
+    <CertificateStore>All</CertificateStore>
+    <WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+    <BypassDownloader>true</BypassDownloader>
+    <EnableScripting>false</EnableScripting>
+    <ProxySettings>Native</ProxySettings>
+    <AutoConnectOnStart>false</AutoConnectOnStart>
+    <MinimizeOnConnect>false</MinimizeOnConnect>
+    <LocalLanAccess>true</LocalLanAccess>
 
-	<ClientInitialization>
-		<UseStartBeforeLogon UserControllable="false">false</UseStartBeforeLogon>
-		<StrictCertificateTrust>false</StrictCertificateTrust>
-		<RestrictPreferenceCaching>false</RestrictPreferenceCaching>
-		<RestrictTunnelProtocols>false</RestrictTunnelProtocols>
-		<BypassDownloader>true</BypassDownloader>
-		<WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
-		<CertEnrollmentPin>pinAllowed</CertEnrollmentPin>
-		<CertificateMatch>
-			<KeyUsage>
-				<MatchKey>Digital_Signature</MatchKey>
-			</KeyUsage>
-			<ExtendedKeyUsage>
-				<ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
-			</ExtendedKeyUsage>
-		</CertificateMatch>
-
-		<BackupServerList>
-	            <HostAddress>zz01.cyberfly.org:522</HostAddress>
-		</BackupServerList>
-	</ClientInitialization>
+    <!-- 备用服务器 -->
+    <BackupServerList>
+      <HostAddress>zz01.cyberfly.org:818</HostAddress>
+    </BackupServerList>
+  </ClientInitialization>
 
 	<ServerList>
 		<HostEntry>
