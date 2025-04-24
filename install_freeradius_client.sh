@@ -41,7 +41,6 @@ wget -q --show-progress https://github.com/FreeRADIUS/freeradius-client/archive/
 echo -e "\n[INFO] 解压并开始编译安装..."
 tar -zxf freeradius-client-1.1.7.tar.gz
 cd freeradius-client-release_1_1_7
-./bootstrap
 ./configure
 make
 make install
